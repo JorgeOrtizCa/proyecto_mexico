@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5565099951224384054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5548499292242311041}
+  - component: {fileID: 1338439720422366187}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5548499292242311041
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565099951224384054}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 938.3586, y: 672.7207, z: -4.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1338439720422366187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5565099951224384054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a1d911f15fc65e4d9c8cfceb6f9c694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - Name: Marcha
+    clip: {fileID: 8300000, guid: fa9fcb1735861e74b8a74e6cb7443124, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Ronquido
+    clip: {fileID: 8300000, guid: b3b53e9110796584891e6c3d2cd633aa, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: ButtonIn
+    clip: {fileID: 8300000, guid: 3e95ac8092f04cb47b096802e647fd44, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: ButtonOut
+    clip: {fileID: 8300000, guid: 842b6487fcd156742ace5d845312a94d, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: IntroGameEff
+    clip: {fileID: 8300000, guid: d16b8e60bb32ca34f95467526b53eca9, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Pizarron
+    clip: {fileID: 8300000, guid: acea828a1ba3e9c408b1b61d3ce6f3ea, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: AlcoholEff
+    clip: {fileID: 8300000, guid: c600419105530cb4e967f4c3dff02d4f, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: FugaEff
+    clip: {fileID: 8300000, guid: 952a8b5be7b466b4eb2d6133eafa7b19, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: PasosEff
+    clip: {fileID: 8300000, guid: 666b81d6bd12e7144b63ba89c4494a56, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: ComerDineroEff
+    clip: {fileID: 8300000, guid: 07c3100b0875c754d8b3e9c800e91269, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: EructoEff
+    clip: {fileID: 8300000, guid: b3beac33319a3454db65579785edf6bf, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: ComerDineroEff
+    clip: {fileID: 8300000, guid: 07c3100b0875c754d8b3e9c800e91269, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: EructoEff
+    clip: {fileID: 8300000, guid: b3beac33319a3454db65579785edf6bf, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: SirensEff
+    clip: {fileID: 8300000, guid: a05e130f1ecdfe34995f6d06eacf3097, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: MasRapidoCabron
+    clip: {fileID: 8300000, guid: c7b5ea2c5097d0b409e0bfd91f2b15ed, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Colecionables
+    clip: {fileID: 8300000, guid: 1d36114e3ebc2f94a9c420ff4181ccb8, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Correcto
+    clip: {fileID: 8300000, guid: 304b05b17d277524a8e7c40f936b2248, type: 3}
+    volume: 0.647
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: Incorrecto
+    clip: {fileID: 8300000, guid: f344dad3437a52b4a84102fa20ee3e99, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  - Name: bombaDeAireEff
+    clip: {fileID: 8300000, guid: 7ba41df63900788458759d28b7b877d8, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    mute: 0
+    _source: {fileID: 0}
+  Playing: 0
