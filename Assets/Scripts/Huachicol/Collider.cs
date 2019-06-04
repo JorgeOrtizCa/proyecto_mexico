@@ -28,7 +28,7 @@ public class Collider : MonoBehaviour
     {
         if (col.tag == "Player")
         {
-            
+            AuidoScript.instance.Mute("Marcha");
             AuidoScript.instance.Stop("FugaEff");
             winText.text = "Bien!";
             FindObjectOfType<Timer>().Ganar();

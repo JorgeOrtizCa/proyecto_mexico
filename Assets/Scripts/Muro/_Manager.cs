@@ -44,6 +44,8 @@ public class _Manager : MonoBehaviour
     }
     void Start()
     {
+        AuidoScript.instance.Mute("Marcha");
+
         Bton_1.SetActive(false);
         Bton_2.SetActive(false);
         Bton_3.SetActive(false);

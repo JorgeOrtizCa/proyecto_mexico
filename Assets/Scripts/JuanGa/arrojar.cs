@@ -14,6 +14,7 @@ public class arrojar : MonoBehaviour
 
     void Start()
     {
+        AuidoScript.instance.Mute("Marcha");
         rb = GetComponent<Rigidbody2D>();
     }
 

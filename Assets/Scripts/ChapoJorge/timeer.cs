@@ -68,13 +68,14 @@ public class timeer : MonoBehaviour
 
     public void Perder()                                   //LO QUE SUCEDE CUANDO PIERDES
     {
-        //FindObjectOfType<Player_Script>().onLoose();
+        AuidoScript.instance.Mute("Marcha");
         SceneManager.LoadScene("Sc_Perder");
         
     }
 
     public void VolveraInicio()
     {
+        AuidoScript.instance.Mute("Marcha");
         SceneManager.LoadScene("Sc_MainMenu");
     }
 }

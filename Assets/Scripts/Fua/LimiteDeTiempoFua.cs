@@ -19,7 +19,7 @@ public class LimiteDeTiempoFua : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
         BarraTiempo = GetComponent<Image>();            //AGGARA EL SPRITE DEL TIEMPO
 		TiempoDeJeugo = TiempoDeJeugo+Vida.ResterTiempo;
         TiempoRestante = TiempoDeJeugo;                 //SE ASIGNA EL TIEMPO
@@ -45,6 +45,7 @@ public class LimiteDeTiempoFua : MonoBehaviour
 
         if (TiempoParaProximaEscena <= 0)
         {
+            AuidoScript.instance.Mute("Marcha");
             SceneManager.LoadScene("Sc_Perder");
         }
 

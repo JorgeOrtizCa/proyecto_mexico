@@ -26,7 +26,7 @@ public class jugador : MonoBehaviour
         Invoke("empizaaaa2", 4);
         AuidoScript.instance.Play("PasosEff");
         AuidoScript.instance.Play("IntroGameEff");
-        AuidoScript.instance.Set_Volume("Marcha", 0.25f);
+        AuidoScript.instance.Mute("Marcha");
     }
     void Update()
     {

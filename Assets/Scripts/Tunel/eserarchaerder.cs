@@ -15,6 +15,7 @@ public class eserarchaerder : MonoBehaviour
 
         if (timeo <= 0)
         {
+            AuidoScript.instance.Mute("Marcha");
             SceneManager.LoadScene("Sc_Perder");
         }
     }

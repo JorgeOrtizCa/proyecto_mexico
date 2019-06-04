@@ -11,6 +11,11 @@ public class DelayFua : MonoBehaviour
     public GameObject Tiempo;
     public GameObject Este;
 
+    private void Start()
+    {
+        AuidoScript.instance.Mute("Marcha");
+    }
+
     void Update()
     {
         if (tiempo > 0)

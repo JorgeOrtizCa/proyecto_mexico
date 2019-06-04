@@ -698,7 +698,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.8745099, g: 0.8470589, b: 0.81568635, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -1254,7 +1254,7 @@ RectTransform:
   m_GameObject: {fileID: 1365123003}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1533266, y: 1.052422, z: 1.1533266}
   m_Children: []
   m_Father: {fileID: 1313950051}
   m_RootOrder: 6
@@ -1284,7 +1284,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 982771131527f1d4785a4c3c0522f3c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b90dfdca3fda8f747ab514c19f181bf9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1435,6 +1435,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: OPCIONES DE DESARROLLADOR
       objectReference: {fileID: 0}
+    - target: {fileID: 8492958547354413579, guid: bb165cbadf15db740ade91375e41a2ec,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1699666808631150735, guid: bb165cbadf15db740ade91375e41a2ec,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1505,11 +1510,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.41666663
       objectReference: {fileID: 0}
-    - target: {fileID: 7994390872812407762, guid: bb165cbadf15db740ade91375e41a2ec,
-        type: 3}
-      propertyPath: ModoDesarrollador
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8286679194647310907, guid: bb165cbadf15db740ade91375e41a2ec,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -1575,6 +1575,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 431753595}
+    - target: {fileID: 7994390872812407762, guid: bb165cbadf15db740ade91375e41a2ec,
+        type: 3}
+      propertyPath: ModoDesarrollador
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb165cbadf15db740ade91375e41a2ec, type: 3}
 --- !u!4 &1732603232 stripped

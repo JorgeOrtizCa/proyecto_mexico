@@ -60,7 +60,7 @@ public class GameplayPena : MonoBehaviour
         Invoke("DarValoresABotones", 2);                            //tiempo antes de que empiece el juego 
         
         AuidoScript.instance.Play("IntroGameEff");
-        AuidoScript.instance.Set_Volume("Marcha", 0.25f);
+        AuidoScript.instance.Mute("Marcha");
 
         if (PlayerPrefs.GetInt("Peña_Contador") >= 50)
         {

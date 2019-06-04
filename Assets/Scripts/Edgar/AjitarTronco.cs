@@ -32,6 +32,8 @@ public class AjitarTronco : MonoBehaviour
 
     void Start()
     {
+        AuidoScript.instance.Mute("Marcha");
+
         rb = GetComponent<Rigidbody2D>();
         sqrSensibilidad = Mathf.Pow(Sensibilidad, 2);
     }

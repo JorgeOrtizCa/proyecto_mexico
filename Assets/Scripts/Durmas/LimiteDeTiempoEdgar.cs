@@ -47,6 +47,7 @@ public class LimiteDeTiempoEdgar : MonoBehaviour
 
         if (TiempoParaProximaEscena <= 0)
         {
+            AuidoScript.instance.Mute("Marcha");
             SceneManager.LoadScene("Sc_Perder");
         }
 

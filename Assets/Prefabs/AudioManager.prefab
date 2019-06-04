@@ -46,7 +46,7 @@ MonoBehaviour:
   sounds:
   - Name: Marcha
     clip: {fileID: 8300000, guid: fa9fcb1735861e74b8a74e6cb7443124, type: 3}
-    volume: 1
+    volume: 0.1
     pitch: 1
     loop: 1
     mute: 0

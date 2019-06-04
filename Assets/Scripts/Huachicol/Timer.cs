@@ -61,6 +61,7 @@ public class Timer : MonoBehaviour
     {
         FindObjectOfType<Manager>().Perder();
         FindObjectOfType<Player_Manager>().onLoose();
+        AuidoScript.instance.Mute("Marcha");
         AuidoScript.instance.Stop("FugaEff");
         TextoPerder.text = "Tiempo!";
         StartCoroutine(_loadPerder());

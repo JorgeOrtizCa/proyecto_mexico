@@ -10,7 +10,7 @@ public class Manager : MonoBehaviour
     {
         AuidoScript.instance.Play("IntroGameEff");
         AuidoScript.instance.Play("FugaEff");
-        AuidoScript.instance.Set_Volume("Marcha", 0.25f);
+        AuidoScript.instance.Mute("Marcha");
         Jugando = true;
     }
     // Update is called once per frame

@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
-
+    private void Start()
+    {
+        AuidoScript.instance.Mute("Marcha");
+    }
 
     public void colision()
     {

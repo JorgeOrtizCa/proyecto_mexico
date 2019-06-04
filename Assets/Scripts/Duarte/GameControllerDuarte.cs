@@ -18,6 +18,7 @@ public class GameControllerDuarte : MonoBehaviour
 
     void Start()
     {
+        AuidoScript.instance.Mute("Marcha");
         AuidoScript.instance.Play("SirensEff");
         //AuidoScript.instance.Play("EructoEff");
 

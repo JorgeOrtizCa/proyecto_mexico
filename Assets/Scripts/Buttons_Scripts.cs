@@ -27,9 +27,4 @@ public class Buttons_Scripts : MonoBehaviour
     {
         AuidoScript.instance.Play(_stringname);
     }
-
-    public void Set_Volume(string _stringname)
-    {
-        AuidoScript.instance.Set_Volume(_stringname, 0.25f);
-    }
 }

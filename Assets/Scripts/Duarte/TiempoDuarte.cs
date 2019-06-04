@@ -39,6 +39,7 @@ public class TiempoDuarte : MonoBehaviour
 
     public void Ganar()
     {
+        AuidoScript.instance.Mute("Marcha");
         AuidoScript.instance.Stop("SirensEff");
         TextoPerder.text = "Ganador";
         SceneManager.LoadScene("Sc_Ganar");
@@ -46,6 +47,7 @@ public class TiempoDuarte : MonoBehaviour
 
     public void Perder()                                   //LO QUE SUCEDE CUANDO PIERDES
     {
+        AuidoScript.instance.Mute("Marcha");
         AuidoScript.instance.Stop("SirensEff");
         SceneManager.LoadScene("Sc_Perder");
 

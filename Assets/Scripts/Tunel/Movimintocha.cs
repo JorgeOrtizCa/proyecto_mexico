@@ -46,6 +46,8 @@ public class Movimintocha : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        AuidoScript.instance.Mute("Marcha");
+
         _botella = GetComponent<Rigidbody2D>();
         ThisAnimator = GetComponent<Animator>();
         _izquierda = true;

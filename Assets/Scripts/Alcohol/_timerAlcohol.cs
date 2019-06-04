@@ -56,7 +56,8 @@ public class _timerAlcohol : MonoBehaviour
     public void Perder()                                   //LO QUE SUCEDE CUANDO PIERDES
     {        
         TextoPerder.text = "¡perdiste!";
-        AuidoScript.instance.Mute("AlcoholEff");
+        AuidoScript.instance.Mute("Marcha");
+        AuidoScript.instance.Stop("AlcoholEff");
         FindObjectOfType<Botella_Script>()._Perder();
         FindObjectOfType<Player_Script>()._Perder();
         StartCoroutine(waitaSec());

@@ -79,6 +79,7 @@ public class Ajitar : MonoBehaviour
 
         if (TiempoParaProximaEscena <= 0)
         {
+            AuidoScript.instance.Mute("Marcha");
             SceneManager.LoadScene("Sc_Ganar");
         }
     }

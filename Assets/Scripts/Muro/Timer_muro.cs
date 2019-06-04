@@ -68,11 +68,13 @@ public class Timer_muro : MonoBehaviour
     IEnumerator waitaSec()
     {
         yield return new WaitForSeconds(2f);
+        AuidoScript.instance.Mute("Marcha");
         SceneManager.LoadScene("Sc_Perder");
     }
     IEnumerator waitasec_victory()
     {
         yield return new WaitForSeconds(2f);
+        AuidoScript.instance.Mute("Marcha");
         SceneManager.LoadScene("Sc_Ganar");
     }
 }

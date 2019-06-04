@@ -27,9 +27,10 @@ public class GameController14 : MonoBehaviour
     {
         rb2D = MafiaDelPoder.GetComponent<Rigidbody2D>();
         AuidoScript.instance.Play("IntroGameEff");
-        
-        
-      //  Invoke("quitarInicio", 2);
+        AuidoScript.instance.Mute("Marcha");
+
+
+        //  Invoke("quitarInicio", 2);
 
         Invoke("quitarIntrucciones", 4);
 

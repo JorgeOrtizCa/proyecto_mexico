@@ -36,7 +36,7 @@ public class Movimiento : MonoBehaviour
 
         AuidoScript.instance.Play("IntroGameEff");
         AuidoScript.instance.Play("Ronquido");
-        AuidoScript.instance.Set_Volume("Marcha", 0.25f);
+        AuidoScript.instance.Mute("Marcha");
 
         GameObject otro = GameObject.Find("ControladorDeDerrota/Victoria");
         Script_TiempoDeEsperaaProxEscena = otro.GetComponent<TiempoDeEsperaaProxEscena>();

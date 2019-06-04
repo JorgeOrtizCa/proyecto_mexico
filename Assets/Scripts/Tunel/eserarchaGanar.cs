@@ -15,6 +15,7 @@ public class eserarchaGanar: MonoBehaviour
 
         if (timeo <= 0)
         {
+            AuidoScript.instance.Mute("Marcha");
             SceneManager.LoadScene("Sc_Ganar");
         }
     }

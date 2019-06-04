@@ -52,13 +52,14 @@ public class tiempoo : MonoBehaviour
 
     public void Ganar()
     {
+        AuidoScript.instance.Mute("Marcha");
         TextoPerder.text = "Ganador";
         SceneManager.LoadScene("Sc_Ganar");
     }
 
     public void Perder()                                   //LO QUE SUCEDE CUANDO PIERDES
     {
-        //FindObjectOfType<Player_Script>().onLoose();
+        AuidoScript.instance.Mute("Marcha"); ;
         SceneManager.LoadScene("Sc_Perder");
 
     }

@@ -394,7 +394,7 @@ PrefabInstance:
     - target: {fileID: 8492958547354413579, guid: bb165cbadf15db740ade91375e41a2ec,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1699666808631150735, guid: bb165cbadf15db740ade91375e41a2ec,
         type: 3}
@@ -451,6 +451,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 39270581027790929, guid: bb165cbadf15db740ade91375e41a2ec,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1087695821}
     - target: {fileID: 7994390872812407762, guid: bb165cbadf15db740ade91375e41a2ec,
         type: 3}
       propertyPath: ModoDesarrollador
@@ -464,11 +469,6 @@ PrefabInstance:
     - target: {fileID: 7994390872812407762, guid: bb165cbadf15db740ade91375e41a2ec,
         type: 3}
       propertyPath: _BarraDeTiempo
-      value: 
-      objectReference: {fileID: 1087695821}
-    - target: {fileID: 39270581027790929, guid: bb165cbadf15db740ade91375e41a2ec,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1087695821}
     m_RemovedComponents: []
@@ -1810,7 +1810,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7128391300bee4f4b8cf295145060fd2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: da8bc47abac2a5a41a3eef357ed59b3b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

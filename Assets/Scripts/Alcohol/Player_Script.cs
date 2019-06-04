@@ -39,7 +39,7 @@ public class Player_Script : MonoBehaviour
         anim = GetComponent<Animator>();
         AuidoScript.instance.Force_Play("AlcoholEff");
         AuidoScript.instance.Play("IntroGameEff");
-        AuidoScript.instance.Set_Volume("Marcha", 0.25f);
+        AuidoScript.instance.Mute("Marcha");
         jugando = false;
         llenando = false;
         estado = true;

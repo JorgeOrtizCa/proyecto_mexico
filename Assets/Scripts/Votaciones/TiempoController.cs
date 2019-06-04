@@ -44,11 +44,13 @@ public class TiempoController : MonoBehaviour
 
     public void escenaPerder()                                   //LO QUE SUCEDE CUANDO PIERDES
     {
+        AuidoScript.instance.Mute("Marcha");
         SceneManager.LoadScene("Sc_Perder");
     }
 
     public void VolveraInicio()
     {
+        AuidoScript.instance.Mute("Marcha");
         SceneManager.LoadScene("Sc_MainMenu");
     }
 }
