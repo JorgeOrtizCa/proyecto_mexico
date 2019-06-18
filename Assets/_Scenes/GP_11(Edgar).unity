@@ -2695,7 +2695,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Ajite el dispositivo a \nla direcci\xF3n correcta."
+  m_Text: "agite el dispositivo a \nla direcci\xF3n correcta."
 --- !u!222 &2002872923
 CanvasRenderer:
   m_ObjectHideFlags: 0
